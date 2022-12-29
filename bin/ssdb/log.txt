@@ -1,0 +1,46 @@
+2022-12-26 04:40:57.443 [INFO ] ssdb-server.cpp(46): ssdb-server 1.9.8
+2022-12-26 04:40:57.443 [INFO ] ssdb-server.cpp(47): conf_file        : ssdb.conf
+2022-12-26 04:40:57.443 [INFO ] ssdb-server.cpp(48): log_level        : debug
+2022-12-26 04:40:57.443 [INFO ] ssdb-server.cpp(49): log_output       : log.txt
+2022-12-26 04:40:57.443 [INFO ] ssdb-server.cpp(50): log_rotate_size  : 1000000000
+2022-12-26 04:40:57.443 [INFO ] ssdb-server.cpp(52): main_db          : ./var/data
+2022-12-26 04:40:57.443 [INFO ] ssdb-server.cpp(53): meta_db          : ./var/meta
+2022-12-26 04:40:57.443 [INFO ] ssdb-server.cpp(54): cache_size       : 500 MB
+2022-12-26 04:40:57.443 [INFO ] ssdb-server.cpp(55): block_size       : 32 KB
+2022-12-26 04:40:57.443 [INFO ] ssdb-server.cpp(56): write_buffer     : 64 MB
+2022-12-26 04:40:57.443 [INFO ] ssdb-server.cpp(57): max_open_files   : 500
+2022-12-26 04:40:57.443 [INFO ] ssdb-server.cpp(58): compaction_speed : 1000 MB/s
+2022-12-26 04:40:57.443 [INFO ] ssdb-server.cpp(59): compression      : yes
+2022-12-26 04:40:57.443 [INFO ] ssdb-server.cpp(60): binlog           : yes
+2022-12-26 04:40:57.443 [INFO ] ssdb-server.cpp(61): binlog_capacity  : 20000000
+2022-12-26 04:40:57.443 [INFO ] ssdb-server.cpp(62): sync_speed       : -1 MB/s
+2022-12-26 04:40:57.463 [INFO ] binlog.cpp(178): binlogs capacity: 20000000, min: 0, max: 0
+2022-12-26 04:40:57.474 [INFO ] server.cpp(159): server listen on 127.0.0.1:8888
+2022-12-26 04:40:57.474 [INFO ] server.cpp(181):     auth    : off
+2022-12-26 04:40:57.474 [INFO ] server.cpp(218):     readonly: no
+2022-12-26 04:40:57.474 [INFO ] serv.cpp(199): key_range.kv: "", ""
+2022-12-26 04:40:57.474 [INFO ] ssdb-server.cpp(85): pidfile: ./var/ssdb.pid, pid: 23912
+2022-12-26 04:40:57.474 [INFO ] ssdb-server.cpp(86): ssdb server started.
+2022-12-26 04:40:57.475 [DEBUG] worker.cpp(17): writer 0 init
+2022-12-26 04:40:57.475 [DEBUG] ttl.cpp(108): load 0 keys into fast_keys
+2022-12-26 04:40:57.475 [DEBUG] worker.cpp(17): reader 0 init
+2022-12-26 04:40:57.475 [DEBUG] worker.cpp(17): reader 1 init
+2022-12-26 04:40:57.475 [DEBUG] worker.cpp(17): reader 2 init
+2022-12-26 04:40:57.475 [DEBUG] worker.cpp(17): reader 3 init
+2022-12-26 04:40:57.475 [DEBUG] worker.cpp(17): reader 4 init
+2022-12-26 04:40:57.475 [DEBUG] worker.cpp(17): reader 5 init
+2022-12-26 04:40:57.475 [DEBUG] worker.cpp(17): reader 6 init
+2022-12-26 04:40:57.475 [DEBUG] worker.cpp(17): reader 7 init
+2022-12-26 04:40:57.475 [DEBUG] worker.cpp(17): reader 8 init
+2022-12-26 04:40:57.475 [DEBUG] worker.cpp(17): reader 9 init
+2022-12-26 04:45:58.374 [INFO ] server.cpp(258): server running, links: 0
+2022-12-26 04:50:58.374 [INFO ] server.cpp(258): server running, links: 0
+2022-12-26 04:55:58.374 [INFO ] server.cpp(258): server running, links: 0
+2022-12-26 05:00:58.374 [INFO ] server.cpp(258): server running, links: 0
+2022-12-26 05:05:58.374 [INFO ] server.cpp(258): server running, links: 0
+2022-12-26 05:06:55.739 [DEBUG] backend_dump.cpp(15): BackendDump finalized
+2022-12-26 05:06:55.739 [DEBUG] backend_sync.cpp(38): BackendSync finalized
+2022-12-26 05:06:55.743 [DEBUG] ttl.cpp(167): ExpirationHandler thread quit
+2022-12-26 05:06:55.750 [DEBUG] serv.cpp(217): SSDBServer finalized
+2022-12-26 05:06:55.776 [DEBUG] binlog.cpp(433): binlog clean_thread quit
+2022-12-26 05:06:55.784 [INFO ] ssdb-server.cpp(94): ssdb-server exit.
